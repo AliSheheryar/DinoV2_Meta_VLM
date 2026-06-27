@@ -1,0 +1,11 @@
+# RF-DETR (DINOv2 backbone) soccer tracking demo
+rfdetr>=1.0.0          # Roboflow RF-DETR — real-time DETR with a DINOv2 backbone
+supervision>=0.25.0    # ByteTrack tracker + annotators + process_video
+opencv-python>=4.9.0
+numpy>=1.24
+pillow>=10.0
+torch>=2.0             # pulled in by rfdetr; install the CUDA build on GPU/Colab
+torchvision
+imageio>=2.34          # optional: export a GIF
+imageio-ffmpeg>=0.4.9
+tqdm
